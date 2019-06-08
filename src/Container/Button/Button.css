@@ -1,0 +1,51 @@
+.Button{
+    background:transparent;
+    font-size: 20px;
+    border-radius:5px;
+    border:2px solid;
+    padding:10px;
+    margin:20px 10px 10px 20px;
+    cursor:pointer;
+    width:41%;
+    transition: transform 100ms ease-in;
+}
+
+
+
+.Encrpty{
+    background-color:white;
+    color:green;
+    border:2px solid green; 
+}
+.Encrpty:hover{
+    background-color:green;
+    color:white;
+    border:2px solid white;
+    transform: scale(1.07)
+}
+
+.Decrypt{
+    background-color:white;
+    color:blue;
+    border:2px solid blue;
+}
+.Decrypt:hover{
+    background-color:blue;
+    color:white;
+    border:2px solid white;
+    transform: scale(1.07)
+
+}
+
+.Cancel{
+    background-color:white;
+    color:red;
+    border:2px solid red;
+}
+
+.Cancel:hover{
+    background-color:red;
+    color:white;
+    border:2px solid white;
+    transform: scale(1.09)
+}

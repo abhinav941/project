@@ -1,0 +1,28 @@
+.box{
+
+    min-height:600px;
+    min-width:800px;
+
+    border:2px solid #eee;
+    box-shadow: 0 5px 5px #ccc;
+    position: absolute;    
+    top:50%;
+    left:50%; 
+    transform:translate(-50%,-50%); 
+}
+
+.text{
+    padding:20px;
+}
+
+.textField{
+    width:90%;
+}
+
+.key{
+      
+    margin:10px;
+}
+.Messages{
+    text-align: center;
+}

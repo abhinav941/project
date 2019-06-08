@@ -1,0 +1,57 @@
+.sidebar{
+    width:200px;
+    height:32.1%;
+    margin-top:50px;
+    background-color:green;
+    position:fixed;
+    top:0;
+    left:0;
+    text-align: center;
+    transition:transform 0.3s ease-in-out;
+    border-radius:5px;
+}
+.Open {
+    transform: translateX(0);
+}
+
+.sidebar ul{
+    margin:0;
+    padding:0;
+}
+
+.sidebar hr{
+    margin:0;
+}
+
+
+
+.links a{
+    text-decoration:none;
+    height:50px;
+    width:200px;
+    padding-top:20px;
+    margin:0 auto;
+    text-transform: capitalize;
+    display: block;
+    color:white;
+    margin-bottom:2px;
+    position: relative;
+    overflow: hidden;
+    border-radius:5px;
+
+}
+
+.links a.active,
+.links a:active,
+.links a:hover{
+    background-color:rgba(230, 216, 216, 0.952);
+    color:Black;
+    opacity: 0.9;
+
+}
+
+
+
+
+
+

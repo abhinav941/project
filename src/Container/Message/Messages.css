@@ -1,0 +1,21 @@
+.messages{
+    
+    width:90%;
+    border:2px solid green;
+    margin:0 auto;
+    margin-top:10px;
+    height:250px;
+    border-radius:10px;
+    background-color: lightgreen;
+    overflow-y:hidden
+}
+
+
+
+
+.message{
+    width:100%;
+    border-bottom:2px solid green; 
+    padding:10px;
+    box-sizing:border-box;
+}

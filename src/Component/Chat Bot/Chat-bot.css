@@ -1,0 +1,40 @@
+.ChatBot{
+
+    min-height:600px;
+    min-width:800px;
+
+    border:2px solid #eee;
+    box-shadow: 0 5px 5px #ccc;
+    position: absolute;    
+    top:50%;
+    left:50%; 
+    transform:translate(-50%,-50%); 
+}
+
+.enter{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    margin-left:30px;
+}
+
+.display{
+    border:2px solid blue;
+    box-shadow:0 5px 5px lightblue;
+    min-height:490px;  
+    margin:20px;
+    border-radius:20px;
+    overflow-y:scroll;
+
+}
+
+.send{
+    display: inline-block;
+    padding:15px;
+}
+
+.show{
+    list-style-type: none;
+    padding:10px;
+
+}
